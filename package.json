@@ -3,4 +3,5 @@
   "description": "A Vue.js project",
   "author": "Maximilian Schwarzmüller <mblacky0@gmail.com>",
   "private": true,
-  "sc
+  "scripts": {
+    "dev": "
