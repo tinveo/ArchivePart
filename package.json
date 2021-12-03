@@ -2,4 +2,5 @@
   "name": "vue-cli",
   "description": "A Vue.js project",
   "author": "Maximilian Schwarzmüller <mblacky0@gmail.com>",
-  "priv
+  "private": true,
+  "sc
