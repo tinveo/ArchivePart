@@ -4,4 +4,4 @@
   "author": "Maximilian Schwarzmüller <mblacky0@gmail.com>",
   "private": true,
   "scripts": {
-    "dev": "cross-env N
+    "dev": "cross-env NODE_ENV=devel
