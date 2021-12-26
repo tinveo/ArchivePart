@@ -4,4 +4,4 @@
   "author": "Maximilian Schwarzmüller <mblacky0@gmail.com>",
   "private": true,
   "scripts": {
-    "dev": "cross-env NODE_ENV=development webpack-d
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --o
