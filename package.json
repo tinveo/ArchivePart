@@ -5,4 +5,4 @@
   "private": true,
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --inline --hot",
-    "build": "cross-env NODE_ENV=production webpack --pro
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-module
