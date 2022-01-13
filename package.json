@@ -9,4 +9,5 @@
   },
   "dependencies": {
     "bootstrap": "^3.3.7",
-    "vu
+    "vue": "^2.0.1",
+    
