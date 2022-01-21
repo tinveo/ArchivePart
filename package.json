@@ -10,4 +10,5 @@
   "dependencies": {
     "bootstrap": "^3.3.7",
     "vue": "^2.0.1",
-    "vue-resourc
+    "vue-resource": "^1.5.1",
+  
