@@ -16,4 +16,4 @@
   },
   "devDependencies": {
     "babel-core": "^6.0.0",
-    "babel-loader": 
+    "babel-loader": "^6.0.0",
