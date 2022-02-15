@@ -17,4 +17,4 @@
   "devDependencies": {
     "babel-core": "^6.0.0",
     "babel-loader": "^6.0.0",
-    "babel-p
+    "babel-preset-es201
