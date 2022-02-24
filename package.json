@@ -19,4 +19,5 @@
     "babel-loader": "^6.0.0",
     "babel-preset-es2015": "^6.0.0",
     "babel-preset-stage-2": "^6.24.1",
-    "cross-en
+    "cross-env": "^3.0.0",
+    "css-
