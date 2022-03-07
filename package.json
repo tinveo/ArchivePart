@@ -24,4 +24,4 @@
     "file-loader": "^0.9.0",
     "vue-loader": "^9.7.0",
     "webpack": "2.1.0-beta.25",
-    "webpack-d
+    "webpack-dev-server": "2.1
