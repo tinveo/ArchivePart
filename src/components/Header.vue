@@ -14,3 +14,22 @@
           <router-link to="/stocks" activeClass="active" tag="li">
             <a>Stocks</a>
           </router-link>
+        </ul>
+        <strong class="navbar-text navbar-right">Funds: {{ funds | currency }}</strong>
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="#" @click="endDay">End Day</a>
+          </li>
+          <li
+            class="dropdown"
+            :class="{ open: isDropdownOpen }"
+            @click="isDropdownOpen = !isDropdownOpen"
+          >
+            <a
+              href="#"
+              class="dropdown-toggle"
+              data-toggle="dropdown"
+              role="button"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
