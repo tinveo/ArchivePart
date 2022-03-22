@@ -33,3 +33,17 @@
               aria-haspopup="true"
               aria-expanded="false"
             >
+              Save & Load
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="#" @click="saveData">Save</a>
+              </li>
+              <li>
+                <a href="#" @click="loadData">Load</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
