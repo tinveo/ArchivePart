@@ -59,3 +59,15 @@ export default {
   data() {
     return {
       isDropdownOpen: false
+    };
+  },
+  computed: {
+    funds() {
+      return this.$store.getters.funds;
+    }
+  },
+  methods: {
+    ...mapActions({
+      randomizeStocks: 'randomizeStocks',
+      fetchData: 'loadData'
+    }),
