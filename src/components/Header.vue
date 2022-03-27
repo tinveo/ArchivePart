@@ -47,3 +47,15 @@
           </li>
         </ul>
       </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
+</template>
+<script>
+import { mapActions } from "vuex";
+
+export default {
+  data() {
+    return {
+      isDropdownOpen: false
