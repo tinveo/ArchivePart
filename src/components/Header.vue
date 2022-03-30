@@ -84,3 +84,9 @@ export default {
       this.$http.put('data.json', data);
     },
     loadData() {
+      // here we actually change the app state, so we gotta go through the store
+      this.fetchData();
+    }
+  }
+};
+</script>
