@@ -14,3 +14,16 @@
             class="form-control"
             type="number"
             min="0"
+            step="1"
+            placeholder="quantity"
+            v-model.number="quantity"
+            :class="{danger : insufficientQuantity}"
+          >
+        </div>
+        <div class="pull-right">
+          <button
+            class="btn btn-success"
+            @click="sellStock"
+            :disabled="insufficientQuantity || quantity <= 0 || !Number.isInteger(quantity)"
+          >{{ insufficientQuantity ? 'Not enough' : 'Sell' }}</button>
+        </div>
