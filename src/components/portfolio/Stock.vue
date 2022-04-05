@@ -27,3 +27,14 @@
             :disabled="insufficientQuantity || quantity <= 0 || !Number.isInteger(quantity)"
           >{{ insufficientQuantity ? 'Not enough' : 'Sell' }}</button>
         </div>
+      </div>
+    </div>
+  </div>
+</template>
+<script>
+import { mapActions } from "vuex";
+export default {
+  props: ["stock"],
+  data() {
+    return {
+      quantity: 0
