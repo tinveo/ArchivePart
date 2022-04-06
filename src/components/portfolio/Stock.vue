@@ -52,3 +52,15 @@ export default {
         stockId: this.stock.id,
         stockPrice: this.stock.price,
         quantity: this.quantity
+      };
+      this.placeSellOrder(order);
+      this.quantity = 0;
+    }
+  }
+};
+</script>
+<style scoped>
+.danger {
+  border: 1px solid red;
+}
+</style>
