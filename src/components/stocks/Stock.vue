@@ -1,2 +1,2 @@
 <template>
-  <div class="col-xs-12 col-s
+  <div class="col-xs-12 col-sm-6 col-md-4">
