@@ -6,4 +6,4 @@
           {{ stock.name }}
           <small>(Price: {{ stock.price | currency }})</small>
         </h3>
-    
+      </div>
