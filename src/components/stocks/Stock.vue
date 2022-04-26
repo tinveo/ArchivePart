@@ -7,4 +7,5 @@
           <small>(Price: {{ stock.price | currency }})</small>
         </h3>
       </div>
-      <div class="panel-
+      <div class="panel-body">
+     
