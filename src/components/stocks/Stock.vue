@@ -10,4 +10,4 @@
       <div class="panel-body">
         <div class="pull-left">
           <input
-          
+            class="form-contro
