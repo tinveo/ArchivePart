@@ -12,4 +12,5 @@
           <input
             class="form-control"
             type="number"
-            mi
+            min="0"
+          
