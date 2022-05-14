@@ -15,4 +15,5 @@
             min="0"
             step="1"
             placeholder="quantity"
-            v-model.number="
+            v-model.number="quantity"
+   
