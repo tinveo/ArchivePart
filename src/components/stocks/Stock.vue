@@ -16,4 +16,4 @@
             step="1"
             placeholder="quantity"
             v-model.number="quantity"
-   
+            :c
