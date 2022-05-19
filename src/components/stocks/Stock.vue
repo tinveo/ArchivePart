@@ -16,4 +16,5 @@
             step="1"
             placeholder="quantity"
             v-model.number="quantity"
-            :class="{'danger' : insufficie
+            :class="{'danger' : insufficientFunds}"
+   
