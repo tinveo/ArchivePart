@@ -19,4 +19,4 @@
             :class="{'danger' : insufficientFunds}"
           >
         </div>
-   
+        <div class=
