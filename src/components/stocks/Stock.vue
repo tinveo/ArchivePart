@@ -22,4 +22,5 @@
         <div class="pull-right">
           <button
             class="btn btn-success"
-            @click="buy
+            @click="buyStock"
+            :disa
