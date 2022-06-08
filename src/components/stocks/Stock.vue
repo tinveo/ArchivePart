@@ -23,4 +23,4 @@
           <button
             class="btn btn-success"
             @click="buyStock"
-            :disa
+            :disabled="insufficient
