@@ -23,4 +23,4 @@
           <button
             class="btn btn-success"
             @click="buyStock"
-            :disabled="insufficientFunds || qua
+            :disabled="insufficientFunds || quantity <= 0 || 
