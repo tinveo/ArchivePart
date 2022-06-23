@@ -25,4 +25,5 @@
             @click="buyStock"
             :disabled="insufficientFunds || quantity <= 0 || !Number.isInteger(quantity)"
           >{{ insufficientFunds ? 'Insufficient Funds' : 'Buy' }}</button>
-     
+        </div>
+    
