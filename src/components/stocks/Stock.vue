@@ -31,4 +31,5 @@
   </div>
 </template>
 <script>
-export
+export default {
+  prop
