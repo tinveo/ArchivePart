@@ -32,4 +32,6 @@
 </template>
 <script>
 export default {
-  props: ["stock"]
+  props: ["stock"],
+  data() {
+  
