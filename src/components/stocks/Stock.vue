@@ -35,4 +35,5 @@ export default {
   props: ["stock"],
   data() {
     return {
-      qua
+      quantity: 0
+    };
