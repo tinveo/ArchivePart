@@ -38,4 +38,5 @@ export default {
       quantity: 0
     };
   },
-  compu
+  computed: {
+   
