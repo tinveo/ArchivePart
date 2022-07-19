@@ -37,3 +37,5 @@ export default {
     return {
       quantity: 0
     };
+  },
+  compu
