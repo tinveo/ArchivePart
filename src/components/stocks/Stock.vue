@@ -40,4 +40,4 @@ export default {
   },
   computed: {
     funds() {
- 
+      return
