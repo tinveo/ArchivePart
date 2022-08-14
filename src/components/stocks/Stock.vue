@@ -42,4 +42,5 @@ export default {
     funds() {
       return this.$store.getters.funds;
     },
-    insufficientFunds(
+    insufficientFunds() {
+      return
