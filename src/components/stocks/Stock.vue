@@ -47,4 +47,4 @@ export default {
     }
   },
   methods: {
-    
+    buyStock() 
