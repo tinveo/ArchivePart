@@ -48,4 +48,5 @@ export default {
   },
   methods: {
     buyStock() {
-      const ord
+      const order = {
+       
