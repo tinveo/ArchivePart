@@ -47,4 +47,5 @@ export default {
     }
   },
   methods: {
-    buyStock() 
+    buyStock() {
+      con
