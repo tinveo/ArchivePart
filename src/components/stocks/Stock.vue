@@ -53,4 +53,4 @@ export default {
         stockPrice: this.stock.price,
         quantity: this.quantity
       };
-      t
+      this.$store.dis
