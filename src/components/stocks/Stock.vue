@@ -53,4 +53,5 @@ export default {
         stockPrice: this.stock.price,
         quantity: this.quantity
       };
-      this.$store.dispatch("buyStock",
+      this.$store.dispatch("buyStock", order);
+     
