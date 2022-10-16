@@ -59,4 +59,5 @@ export default {
   }
 };
 </script>
-<sty
+<style scoped>
+.dan
