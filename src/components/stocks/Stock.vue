@@ -60,4 +60,5 @@ export default {
 };
 </script>
 <style scoped>
-.dan
+.danger {
+  border
