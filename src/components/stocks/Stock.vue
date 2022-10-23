@@ -61,4 +61,4 @@ export default {
 </script>
 <style scoped>
 .danger {
-  border
+  border: 1px solid 
