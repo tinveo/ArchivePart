@@ -1,2 +1,2 @@
 export default [
-  { id: 
+  { id: 1, name: 'BMW
