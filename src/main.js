@@ -20,3 +20,12 @@ Vue.filter('currency', (value) => {
 const router = new VueRouter({
   mode: 'history',
   routes
+});
+
+
+new Vue({
+  el: '#app',
+  router,
+  store,
+  render: h => h(App)
+});
