@@ -44,3 +44,16 @@ const mutations = {
     state.stocks = portfolio.stockPortfolio ? portfolio.stockPortfolio : [];
   }
 };
+
+const actions = {
+  sellStock({ commit }, order) {
+    commit('SELL_STOCK', order);
+  }
+};
+
+const getters = {
+  stockPortfolio(state, getters) {
+    return state.stocks.map(stock => {
+      const record = getters.stocks.find(elem => elem.id === stock.id);
+      return {
+        id: stock.id,
