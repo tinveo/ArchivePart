@@ -67,3 +67,5 @@ const getters = {
     return state.funds;
   }
 };
+
+export default { state, mutations, actions, getters };
