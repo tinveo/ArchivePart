@@ -1,1 +1,1 @@
-import Vue
+import Vue from 'vue';
