@@ -1,2 +1,4 @@
 import Vue from 'vue';
-import Vuex f
+import Vuex from 'vuex';
+
+impor
