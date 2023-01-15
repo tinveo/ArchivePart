@@ -1,4 +1,4 @@
 import Vue from 'vue';
 import Vuex from 'vuex';
 
-import stocks f
+import stocks from './modu
