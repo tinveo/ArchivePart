@@ -4,4 +4,4 @@ import Vuex from 'vuex';
 import stocks from './modules/stocks';
 import portfolio from './modules/portfolio';
 
-import * as actions from
+import * as actions from './actions';
