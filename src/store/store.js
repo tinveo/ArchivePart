@@ -7,3 +7,5 @@ import portfolio from './modules/portfolio';
 import * as actions from './actions';
 
 Vue.use(Vuex);
+
+export def
