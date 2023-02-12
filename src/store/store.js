@@ -8,4 +8,5 @@ import * as actions from './actions';
 
 Vue.use(Vuex);
 
-export default new 
+export default new Vuex.Store({
+  acti
