@@ -8,4 +8,4 @@ import * as actions from './actions';
 
 Vue.use(Vuex);
 
-export def
+export default new 
