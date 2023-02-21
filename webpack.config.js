@@ -17,3 +17,11 @@ module.exports = {
         options: {
           // vue-loader options go here
         }
+      },
+      {
+        test: /\.js$/,
+        loader: 'babel',
+        exclude: /node_modules/
+      },
+      {
+        test: /\.(png|jpg|gif|svg)$/,
